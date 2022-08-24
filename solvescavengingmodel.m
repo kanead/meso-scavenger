@@ -3,7 +3,7 @@ function solvescavengingmodel(scenario)
 
 if scenario==1
     KJ_input=0.35;  KH_input=0.19; KL_input=0.05; p_input=2.26;
-    csvfilename='correctedmainfile.csv';
+    csvfilename='maintextscenario.csv';
 elseif scenario==2
     KJ_input=0.35;  KH_input=0.19; KL_input=0.05; p_input=2.26/2;
     csvfilename='halvedCin.csv';
