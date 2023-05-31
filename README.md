@@ -1,7 +1,7 @@
 # meso-scavenger
 
 Supplemental materials for "Predicted short-term mesoscavenger release gives way to apex-scavenger dominance"
-Authors: J. G. Donohue, A. Kane, and P. T. Piiroinen
+Authors: J. G. Donohue, P. T. Piiroinen and A. Kane 
 Corresponding Author: A. Kane (adam.kane@ucd.ie), UCD School of Biology and Environmental Science, University College Dublin, Ireland
 
 This repository provides a code to solve the scavenging community model for three different sets of parameter values and a code to plot the time-series output.
