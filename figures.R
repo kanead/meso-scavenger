@@ -17,7 +17,7 @@ mydata <- read_csv("maintextscenario.csv", col_names = TRUE)
 # options 
 # maintextscenario.csv
 # halvedCin.csv 
-# halvedKs.csv
+# reducedKs.csv
 
 #' reshape your data
 mydata <- melt(mydata, id.vars=c("Time"))
