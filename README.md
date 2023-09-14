@@ -21,7 +21,7 @@ Also included (in the "SupplementS5" folder) is a code to find relevant equilibr
 
 Finally, the "SupplementS5/transients" folder contains codes that produce time-series output for the temporal-segregation-of-carrion model. 
 
-1. The Matlab code "solvesegregationmodelatintermediateNF.m" solves the dynamical system given by Eq. (S20) at the parameter value of n_f=0.5.  The R project code "figureS5_sixpanels.R plots the results (shown in Figure S5 in the Supplement) with the associated data contained in the "nf_0_5.csv file.
-2. The Matlab code "solvesegregationmodelatmaxNF.m" solves the dynamical system given by Eq. (S20) at the parameter value of n_f=1. The R project code "figureS6_fourpanels.R" plots the results (shown in Figure S6 in the Supplement) with the associated data contained in the "nf_1.csv" file.
+1. The Matlab code "solvesegregationmodelatintermediateNF.m" solves the dynamical system given by Eq. (S20) at the parameter value of $n_f=0.5$.  The R project code "figureS5_sixpanels.R plots the results (shown in Figure S5 in the Supplement) with the associated data contained in the "nf_0_5.csv file.
+2. The Matlab code "solvesegregationmodelatmaxNF.m" solves the dynamical system given by Eq. (S20) at the parameter value of $n_f=1$. The R project code "figureS6_fourpanels.R" plots the results (shown in Figure S6 in the Supplement) with the associated data contained in the "nf_1.csv" file.
 
 All Matlab codes have been written in the R2021b version.
