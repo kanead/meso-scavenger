@@ -9,7 +9,7 @@ Corresponding Author: A. Kane (adam.kane@ucd.ie), UCD School of Biology and Envi
 
 This repository provides a code to solve the scavenging community model for three different sets of parameter values and a code to plot the time-series output:
 
-1. The Matlab code "solvescavengingmodel.m" solves the dynamical system given by Eq. (1). The scenarios 1,2 and 3 correspond to Figure 1 in the main text, Figure S1 in the supplement and Figure S2 in the supplement respectively.
+1. The Matlab code "solvescavengingmodel.m" solves the dynamical system given by Eqs. (1)-(3). The scenarios 1,2 and 3 correspond to Figure 1 in the main text, Figure S1 in the supplement and Figure S2 in the supplement respectively.
 2. The R project code "figures.R" plots the results for the main scenario and two sensitivity analyses. The data are contained within the .csv files.
 
 
