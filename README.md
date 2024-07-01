@@ -9,14 +9,14 @@ Corresponding Author: A. Kane (adam.kane@ucd.ie), UCD School of Biology and Envi
 
 This repository provides code to solve the scavenging community model for three different sets of parameter values and code to plot the time-series output:
 
-1. 
+1. The Maple code "scavengingmodel_eqptlocation.mw" locates equilibrium points of Eqs.(1)-(3) and determines their stability. The default parameter values are those given in Table 2 of the main text with an option provided to switch to those used in sensitivity analyses.
 2. The Matlab code "solvescavengingmodel.m" solves the dynamical system given by Eqs. (1)-(3). The scenarios 1,2 and 3 correspond to Figure 1 in the main text, Figure S1 in the supplement and Figure S2 in the supplement respectively.
 3. The R project code "figures.R" plots the results for the main scenario and two sensitivity analyses. The data are contained within the .csv files.
 
 
 Also included (in the "SupplementS5" folder) is code to find relevant equilibrium solutions to the temporal-segregation-of-carrion extension to the original model and code to plot the output:
 
-1. 
+1. The Maple code "temporalsegregationmodel_eqptlocation.mw" locates equilibrium points of Eq.(S20) and determines their stability. The n_f parameter is, by default, set to 0.
 2. The Matlab code "temporalsegregation_eqpts.m" follows the stable equilibrium point of the dynamical system given by Eq. (S20) as the n_f parameter is increased from 0 to 1.
 3. The R project code "bifurcation_figure.R" plots the results, producing Figure S4 in the Supplement. The data is contained within the "increase_n_f.csv" file.
 
